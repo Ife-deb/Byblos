@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context="CarRentalPage">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstName"
+            android:hint="First Name"
+            android:padding="10dp"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastName"
+            android:hint="Last Name"
+            android:padding="10dp"
+            android:inputType="textPersonName"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth"
+            android:padding="10dp"
+            android:inputType="date"/>
+        <DatePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:id="@+id/DateOfBirth"/>
+
+        <EditText
+            android:id="@+id/customerAddress"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address (72 Joymar St.)"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/customerCity"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City (same as branch)"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/customerPostalCode"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Postal Code (L5Y2C5)"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customerEmail"
+            android:hint="Email"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/licenseType"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:hint="license type(please select)"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehicleType"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:hint="Preferred vehicle type(please select)"/>
+
+        <TextView
+            android:id="@+id/pickupDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick Up Date"
+            android:padding="10dp" />
+
+        <DatePicker
+            android:id="@+id/date1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:padding="10dp"
+            android:datePickerMode="spinner"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pickupTime"
+            android:text="Preferred Pickup Time"
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/pickupTime1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="(09:00AM)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DropOffDate"
+            android:text="Drop off Date"
+            android:padding="10dp" />
+        <DatePicker
+            android:id="@+id/date2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:padding="10dp"
+            android:datePickerMode="spinner"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DropOffTime"
+            android:text="Preferred drop off time"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/dropTime1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="(05:00PM)"/>
+
+        <Button
+            android:id="@+id/submitRequestCar"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Submit Request"/>
+
+    </LinearLayout>
+</ScrollView>

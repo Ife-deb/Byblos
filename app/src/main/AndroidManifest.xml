@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.byblos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Byblos">
+        <activity
+            android:name=".Hours"
+            android:exported="false" />
+        <activity
+            android:name=".Cities"
+            android:exported="false" />
+        <activity
+            android:name=".EditUsers"
+            android:exported="false" />
+        <activity
+            android:name=".AdminEdits"
+            android:exported="false" />
+        <activity
+            android:name=".Search"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteServiceEmployee"
+            android:exported="true" />
+        <activity
+            android:name=".DeleteBranchPage"
+            android:exported="true" />
+        <activity
+            android:name=".MovingAssistancePage"
+            android:exported="false" />
+        <activity
+            android:name=".RequestPage"
+            android:exported="false" />
+        <activity
+            android:name=".TruckRentalPage"
+            android:exported="false" />
+        <activity
+            android:name=".CarRentalPage"
+            android:exported="false" />
+        <activity
+            android:name=".PageSelectService"
+            android:exported="false" />
+        <activity
+            android:name=".CompleteBranchProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ManageProfile"
+            android:exported="false" />
+        <activity
+            android:name=".BranchProfile"
+            android:exported="false" />
+        <activity
+            android:name=".SelectBranchEmployee"
+            android:exported="false" />
+        <activity
+            android:name=".MovingAssEditHourly"
+            android:exported="true" />
+        <activity
+            android:name=".TruckRentalEditHourlyRate"
+            android:exported="true" />
+        <activity
+            android:name=".CarRentalEditHourly"
+            android:exported="true" />
+        <activity
+            android:name=".AddServiceBranches"
+            android:exported="true" />
+        <activity
+            android:name=".SelectBranchCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".SelectBranch"
+            android:exported="false" />
+        <activity
+            android:name=".ManageBranches"
+            android:exported="true" />
+        <activity
+            android:name=".WelcomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

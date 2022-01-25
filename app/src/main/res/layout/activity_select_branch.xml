@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectBranch">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/anton"
+            android:text="Select a Branch"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="50sp"/>
+
+        <Button
+            android:id="@+id/ottawaBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ottawa"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:onClick="onClickBranch"/>
+
+        <Button
+            android:id="@+id/torontoBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toronto"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:onClick="onClickBranch"/>
+
+        <Button
+            android:id="@+id/montrealBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Montreal"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:onClick="onClickBranch"/>
+
+        <Button
+            android:id="@+id/kingstonBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kingston"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:onClick="onClickBranch"/>
+
+        <Button
+            android:id="@+id/windsorBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Windsor"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:onClick="onClickBranch"/>
+
+        <Button
+            android:id="@+id/prevPageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="end"
+            android:text="Log out"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

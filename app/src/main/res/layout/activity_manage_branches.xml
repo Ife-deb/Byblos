@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManageBranches"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/manageBranchesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/manage_branches"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="50sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/currentServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textSize="17dp"
+            android:text="@string/services_offered" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/servicesBranchBtnGr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/carRentalBranchBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/carRental" />
+
+                <RadioButton
+                    android:id="@+id/truckRentalBranchBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/truckRental" />
+
+                <RadioButton
+                    android:id="@+id/movingAssBranchBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/movingAssistance" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/editserviceButton"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/blue"
+                android:fontFamily="@font/anton"
+                android:text="@string/edit"
+                tools:ignore="TextContrastCheck" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/deleteserviceButton"
+                    android:layout_width="123dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/blue"
+                    android:fontFamily="@font/anton"
+                    android:text="@string/delete"
+                    tools:ignore="TextContrastCheck" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/prevPageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="end"
+            android:text="Go Back to Previous Page"
+            android:textColor="@color/black"
+
+            />
+
+        <Button
+            android:id="@+id/addserviceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="end"
+            android:text ="@string/add_service"
+            android:textColor ="@color/black"
+
+            />
+    </LinearLayout>
+</LinearLayout>

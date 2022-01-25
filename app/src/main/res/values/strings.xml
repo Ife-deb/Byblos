@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Byblos</string>
+    <string name="adminText">Admin </string>
+    <string name="sign_up">Sign up!</string>
+
+    <string name="manage_branches">Manage Branches</string>
+    <string name="services_offered">Current Services Offered</string>
+
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="delete_branch">Delete This Branch</string>
+    <string name="add">Add</string>
+
+    <string name="dilogboxtile">Set New Hourly Rate</string>
+    <string name="dialogCRtitle">Current Hourly Rate</string>
+
+    <string name="save">Save Changes</string>
+    <string name="discard">Discard Changes</string>
+
+    <string name="add_service">Add a new service?</string>
+
+    <string name="carRental">Car Rental </string>
+    <string name="truckRental">Truck Rental</string>
+    <string name="movingAssistance">Moving Assistance</string>
+
+    <string name="employeeText">Employee</string>
+    <string name="customerText">Customer</string>
+    <string name="registerText">Register</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="email">email address</string>
+    <string name="password">password</string>
+    <string name="alreadyHaveAccount">already have an account? </string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="submitRequestTruck">Submit Request</string>
+    <string name="edit_users">edit users</string>
+    <string name="edit_branches">edit branches</string>
+    <string name="welcome_admin">Welcome Admin</string>
+
+
+</resources>

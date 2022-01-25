@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".SelectBranchCustomer">
+
+        <TextView
+            android:id="@+id/titleBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/anton"
+            android:text="Select a Branch"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="50sp"/>
+
+        <Button
+            android:id="@+id/ottawaBranchC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ottawa"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:onClick="onClickBranchC"/>
+
+        <Button
+            android:id="@+id/torontoBranchC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toronto"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:onClick="onClickBranchC"/>
+
+        <Button
+            android:id="@+id/montrealBranchC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Montreal"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:onClick="onClickBranchC"/>
+
+        <Button
+            android:id="@+id/kingstonBranchC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kingston"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:onClick="onClickBranchC"/>
+
+        <Button
+            android:id="@+id/windsorBranchC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Windsor"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:onClick="onClickBranchC"/>
+
+        <Button
+            android:id="@+id/previousPageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="end"
+            android:text="Log out"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="end"
+            android:text="Search"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</ScrollView>

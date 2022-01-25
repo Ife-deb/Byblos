@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".RequestPage"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/anton"
+            android:text="Requests"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/branchName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/anton"
+            android:text="Branch Name"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="30sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="244dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <ListView
+                android:id= "@+id/list2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <ListView
+                android:id= "@+id/list3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/prevPageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="end"
+            android:text="Go Back to Previous Page"
+            android:textColor="@color/black"
+
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

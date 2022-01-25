@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddServiceBranches">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/addServiceEmp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/anton"
+            android:text="Add a Service"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:id="@+id/branchName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/anton"
+            android:text="Branch Name"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/addCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Car Rental"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/addTruck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Truck Rental"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/addAss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moving Assistance"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/anton"
+            android:layout_margin="20dp"
+            android:textSize="20sp"/>
+
+
+        <Button
+            android:id="@+id/prevPageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="end"
+            android:text="Go Back to Previous Page"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

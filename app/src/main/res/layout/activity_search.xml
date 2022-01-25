@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+
+
+    <TextView
+        android:id="@+id/findABranch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:padding="5sp"
+        android:text="Find a Branch"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999" />
+
+    <Button
+        android:id="@+id/searchCityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:gravity="center_horizontal|end"
+        android:text="Search by City"
+        android:textAlignment="center"
+
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/searchHoursBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:gravity="center_horizontal"
+        android:text="Search by Hours"
+        android:textAlignment="center"
+
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/searchServicesBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:gravity="center_horizontal|end"
+        android:text="Search Available Services"
+        android:textAlignment="center"
+
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/previousPageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:gravity="end"
+        android:text="Go Back to Previous Page"
+        android:textColor="@color/blue" />
+
+</LinearLayout>
